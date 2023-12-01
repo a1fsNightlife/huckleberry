@@ -53,3 +53,28 @@ section {
   margin-top: -5px;
   border-bottom: 4px solid hsl(45deg, 100%, 40%);
 }
+
+@media (max-width: 1024px) {
+  .max-width-wrapper {
+    padding: 50px 30px;
+  }
+
+  section.max-width-wrapper {
+    padding: 50px 0;
+  }
+
+  .card {
+    max-width: 100vw;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .indented-heading {
+    padding-left: 55px;
+  }
+
+  .card > p {
+    max-width: 630px;
+    padding-left: 30px;
+  }
+}
