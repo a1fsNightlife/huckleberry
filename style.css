@@ -78,3 +78,15 @@ section {
     padding-left: 30px;
   }
 }
+
+@media (max-width: 390px) {
+  section.max-width-wrapper {
+    padding-bottom: 0;
+  }
+
+  .card {
+    border-bottom: 0;
+    padding-bottom: 0;
+    overflow-y: hidden;
+  }
+}
